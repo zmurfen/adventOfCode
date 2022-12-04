@@ -45,5 +45,6 @@ public class Reader {
         filePaths.put("day1", "src/main/resources/day1");
         filePaths.put("day2", "src/main/resources/day2");
         filePaths.put("day3", "src/main/resources/day3");
+        filePaths.put("day4", "src/main/resources/day4");
     }
 }
