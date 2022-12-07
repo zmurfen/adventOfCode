@@ -7,8 +7,9 @@
     <list default="true" id="ad5b07e4-dabb-49aa-98a4-72440f356a96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/Day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/Day6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/setup/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/setup/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/Day7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,9 @@
       <workItem from="1670155577222" duration="4704000" />
       <workItem from="1670252802316" duration="6531000" />
       <workItem from="1670312253144" duration="652000" />
-      <workItem from="1670351545656" duration="3175000" />
+      <workItem from="1670351545656" duration="4002000" />
+      <workItem from="1670402383986" duration="2809000" />
+      <workItem from="1670425065456" duration="8062000" />
     </task>
     <servers />
   </component>

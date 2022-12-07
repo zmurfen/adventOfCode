@@ -10,21 +10,16 @@ import java.util.List;
 
 @Data
 public class Reader {
-
-    private HashMap<String, String> filePaths;
     private BufferedReader fileReader;
-
+    private String FILE_PATH = "src/main/resources/";
     private HashMap<Integer, List<String>> input = new HashMap<>();
 
-    public Reader() {
-        this.filePaths = new HashMap<>();
-        populateFilePaths();
-    }
+    public Reader() { }
 
     public List<String> readFile(String day) {
         ArrayList<String> readFile = new ArrayList<>();
         try {
-            fileReader = new BufferedReader(new FileReader(filePaths.get(day)));
+            fileReader = new BufferedReader(new FileReader(FILE_PATH+day));
             String line = fileReader.readLine();
             while (line != null) {
                 readFile.add(line);
@@ -45,7 +40,7 @@ public class Reader {
     public HashMap<Integer, List<String>> readFileDay5FirstPart(String day) {
         populateHashMap(input);
         try {
-            fileReader = new BufferedReader(new FileReader(filePaths.get(day)));
+            fileReader = new BufferedReader(new FileReader(FILE_PATH+day));
             String line = fileReader.readLine();
             int j;
             while(line != null) {
@@ -77,7 +72,7 @@ public class Reader {
         ArrayList<String> readFile = new ArrayList<>();
         boolean storeData = false;
         try {
-            fileReader = new BufferedReader(new FileReader(filePaths.get(day)));
+            fileReader = new BufferedReader(new FileReader(FILE_PATH+day));
             String line = fileReader.readLine();
             while (line != null) {
                 if (storeData) {
@@ -108,15 +103,5 @@ public class Reader {
         for (int i = 1; i<=9; i++) {
             temp.put(i,new ArrayList<>());
         }
-    }
-
-
-    private void populateFilePaths() {
-        filePaths.put("day1", "src/main/resources/day1");
-        filePaths.put("day2", "src/main/resources/day2");
-        filePaths.put("day3", "src/main/resources/day3");
-        filePaths.put("day4", "src/main/resources/day4");
-        filePaths.put("day5", "src/main/resources/day5");
-        filePaths.put("day6", "src/main/resources/day6");
     }
 }
